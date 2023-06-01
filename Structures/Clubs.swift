@@ -1,6 +1,7 @@
-import SwiftUI
+import Foundation
 
-struct Club {
+struct Club: Identifiable {
+    let id = UUID()
     var name: String
     var players: [Player]
     var homeKitColor: [Double]

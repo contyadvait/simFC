@@ -1,7 +1,7 @@
 import Foundation
 
 struct Player: Identifiable {
-    var id = UUID()
+    let id = UUID()
     var name: String
     var number: Int
     var postition: [String]
@@ -46,7 +46,7 @@ struct Player: Identifiable {
     }
 }
 
-var haaland = Player(name: "Eerling Haaland", number: 9, postition: ["ST", "CF"], powerShot: true, longshots: 93, starter: true, shooting: 97, dribbling: 90, ballControl: 92, pace: 97, defending: 61, slideTackles: 36, clearancePower: 67, stamina: 89, strength: 99, jumping: 82, passing: 82, finishing: 99, headingAccuracy: 98, makeMistakesUnderStress: false, reflexes: 15, positioning: 9, distribution: 33, strongHands: true, handling: 47, kicking: 72, playerCharacters: ["Power Header", "Speed Dribbler", "Injury Prone"], basedOnCard: "PL TOTS")
+var haaland = Player(name: "Erling Braut Haaland", number: 9, postition: ["ST", "CF"], powerShot: true, longshots: 93, starter: true, shooting: 97, dribbling: 90, ballControl: 92, pace: 97, defending: 61, slideTackles: 36, clearancePower: 67, stamina: 89, strength: 99, jumping: 82, passing: 82, finishing: 99, headingAccuracy: 98, makeMistakesUnderStress: false, reflexes: 15, positioning: 9, distribution: 33, strongHands: true, handling: 47, kicking: 72, playerCharacters: ["Power Header", "Speed Dribbler", "Injury Prone"], basedOnCard: "PL TOTS")
 
 var deBruyne = Player(name: "Kevin De Bruyne", number: 17, postition: ["CM", "CAM"], powerShot: true, longshots: 95, starter: true, shooting: 92, dribbling: 95, ballControl: 98, pace: 84, defending: 85, slideTackles: 70, clearancePower: 99, stamina: 99, strength: 84, jumping: 71, passing: 99, finishing: 89, headingAccuracy: 73, makeMistakesUnderStress: false, reflexes: 27, positioning: 54, distribution: 21, strongHands: true, handling: 87, kicking: 99, playerCharacters: ["Outside Foot Shot", "Playmaker", "Long Shot Taker", "Long Passer", "Early Crosser", "Leadership", "Injury Prone"], basedOnCard: "PL TOTS")
 
