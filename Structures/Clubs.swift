@@ -41,8 +41,10 @@ struct Club: Identifiable {
     }
 }
 
+var manCityPlayers = [haaland, deBruyne, rubenDias, ederson]
+
 var manCity = Club(name: "Manchester City FC",
-                   players: [haaland, deBruyne, rubenDias, ederson],
+                   players: manCityPlayers,
                    homeKitColor: [115, 195, 232],
                    awayKitColor: [47, 39, 46],
                    hasThirdKit: true,
@@ -62,3 +64,5 @@ var bayernMunich = Club(name: "FC Bayern Munich",
                         currentPositionInLeague: 2,
                         captainOrder: [jamalMusiala],
                         manager: pepGuardiola)
+
+
