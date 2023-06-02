@@ -61,7 +61,7 @@ struct TeamSelectView: View {
                 TacticsView(manager: $managerSelected)
             }
                         .sheet(isPresented: $openClubStats) {
-                            ClubStatsView(clubSelected: $teamSelected, managerSelected: $managerSelected)
+                            ClubStatsView(clubSelected: $teamSelected, managerSelected: $managerSelected, openSheet: $openClubStats)
                         }
         }
     }

@@ -3,36 +3,15 @@ import SwiftUI
 struct TacticsView: View {
     @Binding var manager: Manage
     var body: some View {
-        ZStack {
             if manager == Manage.pepGuardiola {
-                VStack {
-                    Text("Pep Guardiola's Tactics")
-                    HStack {
-                        Image(systemName: "arrow.up.circle")
-                            .padding()
-                        Text("Slight Attacking Tendency")
+                    Section("Pep Guardiola's Tactics") {
+                        Label("Slight Attacking Tendency", systemImage: "arrow.up.circle")
+                        Label("4 CB line with Stones as CDM in attack", systemImage: "arrow.left.and.right")
+                        Label("Tends to stay in opponent's half", systemImage: "arrow.up.to.line")
+                        Label("Press when possession lost", systemImage: "digitalcrown.horizontal.press")
                     }
-                    HStack {
-                        Image(systemName: "arrow.left.and.right")
-                            .padding()
-                        Text("4 CB line with Stones as CDM in attack")
-                    }
-                    HStack {
-                        Image(systemName: "arrow.up.to.line")
-                            .padding()
-                        Text("Tends to stay in opponent's half")
-                    }
-                    HStack {
-                        Image(systemName: "digitalcrown.horizontal.press")
-                            .padding()
-                        Text("Press when possession lost")
-                    }
-                }
             } else {
-                Text("Your manager tactics are not available. Coming Soon!")
+                Label("Your manager tactics are not available. Coming Soon!", systemImage: "xmark.octagon")
             }
-        }
-        .presentationDetents([.medium])
-        .ignoresSafeArea()
     }
 }
