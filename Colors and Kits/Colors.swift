@@ -16,4 +16,8 @@ struct KitColors {
     static let psgHome = Color("psgHome")
     static let psgAway = Color("psgAway")
     static let psgThird = Color("psgThird")
+    
+    // pitch colors
+    static let color1 = Color("fieldColor1")
+    static let color2 = Color("fieldColor2")
 }

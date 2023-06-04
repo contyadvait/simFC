@@ -18,6 +18,11 @@ struct CreditsView: View {
                     .font(.body)
                     .foregroundColor(.white)
                     .padding()
+                Text("Thanks to Vecteezy.com for the provision of the football pitch in-game.")
+                    .multilineTextAlignment(.center)
+                    .font(.body)
+                    .foregroundColor(.white)
+                    .padding()
             }
         }
         .ignoresSafeArea()
