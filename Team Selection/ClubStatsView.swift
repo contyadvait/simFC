@@ -26,10 +26,11 @@ struct ClubStatsView: View {
                     // Mock up:
                     // ---------------------------------------------------
                     Section("Players") {
-                        Label("E. Haaland, 97, ST/CF, PL TOTS", systemImage: "figure.soccer")
-                        Label("K. De Bruyne, 97, CM/CAM, PL TOTS", systemImage: "arrow.turn.up.left")
-                        Label("R. Dias, 97, CB, PL TOTS", systemImage: "trophy")
-                        Label("Ederson M., 90, GK, FUT Ballers", systemImage: "hand.raised")
+                        Label("E. Haaland, 97, ST/CF, PL TOTS, Starter", systemImage: "figure.soccer")
+                        Label("K. De Bruyne, 97, CM/CAM, PL TOTS, Starter", systemImage: "arrow.turn.up.left")
+                        Label("R. Dias, 97, CB, PL TOTS, Starter", systemImage: "trophy")
+                        Label("Ederson M., 90, GK, FUT Ballers, Starter", systemImage: "hand.raised")
+                        Label("J. Grealish, 91, CAM/LM/LW, FUT Ballers, Reserve", systemImage: "soccerball")
                     }
                     // Mockup
                     Section("Overall") {
